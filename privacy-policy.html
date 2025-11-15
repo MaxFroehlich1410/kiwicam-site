@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>KiwiCam Privacy Policy</title>
+    <meta
+      name="description"
+      content="Understand how KiwiCam processes your photos, local settings, subscriptions, and the third-party services we rely on."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="KiwiCam_Logo.png" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <a class="logo" href="index.html">
+            <img src="KiwiCam_Watermark.png" alt="KiwiCam watermark" />
+            <span>KiwiCam</span>
+          </a>
+          <div class="nav-links">
+            <a href="index.html#features">Features</a>
+            <a href="index.html#styles">Styles</a>
+            <a href="index.html#how-it-works">How it works</a>
+            <a href="support.html">Support & FAQ</a>
+            <a href="privacy-policy.html" aria-current="page">Privacy</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="support-layout">
+      <div class="container">
+        <article class="content-card">
+          <h1>KiwiCam Privacy Policy</h1>
+          <p>Last updated: <span id="lastUpdated">November 15, 2025</span></p>
+
+          <h2>1. Introduction</h2>
+          <p>
+            KiwiCam respects your privacy. This Privacy Policy explains how we collect, use, disclose,
+            and safeguard information when you use the KiwiCam mobile application.
+          </p>
+
+          <h2>2. Information We Process</h2>
+
+          <h3>2.1 Photos You Provide</h3>
+          <ul>
+            <li>When you capture a photo in KiwiCam or import one from your library, the image stays on your device.</li>
+            <li>
+              If you choose to apply an AI style, the app compresses the image and transmits it—together with the style
+              prompt—to our AI processor (AIProxy/Replicate) so the transformation can run on Replicate’s infrastructure
+              using Google’s Nano Banana model.
+            </li>
+            <li>
+              Once processing finishes, the transformed image returns to your device. The app optionally saves that result
+              to your photo library with a KiwiCam watermark.
+            </li>
+            <li>KiwiCam does not keep a server-side copy of your photos.</li>
+          </ul>
+
+          <h3>2.2 Local Preferences and Usage Counters</h3>
+          <ul>
+            <li>
+              The toggle showing whether you allowed cloud processing and the number of free/paid transformations you
+              have used are stored on your device using Apple’s UserDefaults and Keychain.
+            </li>
+            <li>This data never leaves your device except through Apple’s standard encrypted backup mechanisms.</li>
+          </ul>
+
+          <h3>2.3 Purchases and Subscriptions</h3>
+          <p>
+            KiwiCam relies on RevenueCat to manage in-app purchases. StoreKit receipts and related subscription information
+            are handled directly by RevenueCat and Apple; KiwiCam does not receive your billing details.
+          </p>
+
+          <h3>2.4 What We Do NOT Collect</h3>
+          <ul>
+            <li>We do not log device identifiers, operating system information, analytics, feature usage, or behavioral tracking data.</li>
+            <li>We do not collect location data.</li>
+          </ul>
+
+          <h2>3. How We Use Your Information</h2>
+          <ul>
+            <li>To forward your selected photo and style prompt to AIProxy/Replicate for transformation.</li>
+            <li>To deliver the transformed photo back to you and optionally save it to your library.</li>
+            <li>To remember whether you approved cloud processing and to enforce transformation limits tied to your subscription tier.</li>
+            <li>To facilitate purchase validation through RevenueCat.</li>
+          </ul>
+
+          <h2>4. Data Storage and Retention</h2>
+          <ul>
+            <li>
+              <strong>Photos:</strong> KiwiCam keeps every photo on your device. When you request an AI transformation, the image
+              exists on Replicate’s systems only long enough to complete processing. For details, refer to Replicate’s
+              retention policy (<a href="https://replicate.com/privacy">https://replicate.com/privacy</a>).
+            </li>
+            <li>
+              <strong>Local Data:</strong> Preferences and usage counters persist on your device until you uninstall the app, reset
+              settings, or clear them.
+            </li>
+            <li>We do not maintain KiwiCam-operated servers that store personal data.</li>
+          </ul>
+
+          <h2>5. Third-Party Services</h2>
+
+          <h3>5.1 AIProxy/Replicate</h3>
+          <p>
+            We use AIProxy/Replicate (<a href="https://replicate.com/">https://replicate.com/</a>) to run Google’s Nano Banana model.
+            They act as our processor for AI rendering and receive only the data needed to perform your requested transformation.
+          </p>
+
+          <h3>5.2 Google Nano Banana Model</h3>
+          <p>
+            The model is hosted in Google Cloud as part of the Replicate workflow. Google handles the compute infrastructure
+            for the transformation; any temporary storage follows Google and Replicate policies.
+          </p>
+
+          <h3>5.3 RevenueCat</h3>
+          <p>
+            RevenueCat (<a href="https://www.revenuecat.com/privacy">https://www.revenuecat.com/privacy</a>) manages in-app purchases and
+            subscriptions. They process transactional data required by Apple’s App Store but do not share personal billing details with us.
+          </p>
+
+          <h2>6. Data Security</h2>
+          <p>
+            We rely on HTTPS for all network communication and use Apple’s UserDefaults/Keychain to store local settings securely.
+            Remember that no method of transmission or storage is completely secure.
+          </p>
+
+          <h2>7. Your Rights</h2>
+          <p>
+            Depending on your location, you may have the right to request access to or deletion of data stored on your device,
+            opt out of cloud processing by disabling the in-app toggle, or make other privacy inquiries. Contact us and we will help
+            you exercise applicable rights.
+          </p>
+
+          <h2>8. Children’s Privacy</h2>
+          <p>KiwiCam is not intended for children under 13, and we do not knowingly collect information from them.</p>
+
+          <h2>9. Changes to This Privacy Policy</h2>
+          <p>
+            We may update this policy from time to time. We will post revisions in the app and update the “Last updated” date.
+          </p>
+
+          <h2>10. Contact Us</h2>
+          <p>Email: <a href="mailto:maxfroehlich@gmx.net">maxfroehlich@gmx.net</a></p>
+          <p>Support: <a href="https://kiwicam.site/support">https://kiwicam.site/support</a></p>
+        </article>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container footer-inner">
+        <img src="KiwiCam_Watermark.png" alt="KiwiCam watermark" style="width: 120px" />
+        <div>© <span id="year"></span> KiwiCam. Built in Berlin.</div>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="support.html">Support & FAQ</a>
+          <a href="terms-of-service.html">Terms of Service</a>
+          <a href="privacy-policy.html" aria-current="page">Privacy Policy</a>
+        </nav>
+        <div class="footer-copy">
+          Questions? Email
+          <a href="mailto:maxfroehlich@gmx.net">maxfroehlich@gmx.net</a>
+        </div>
+      </div>
+    </footer>
+    <script>
+      const year = document.getElementById("year");
+      if (year) {
+        year.textContent = new Date().getFullYear();
+      }
+    </script>
+  </body>
+</html>
+
