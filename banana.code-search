@@ -1,0 +1,29 @@
+# Query: banana
+# ContextLines: 1
+
+7 results - 1 file
+
+privacypolicycontent.md:
+   9  * When you capture a photo in KiwiCam or import one from your library, the image stays on your device.
+  10: * If you choose to apply an AI style, the app compresses the image and transmits it—together with the style prompt—to our AI processor (AIProxy/Replicate) so the transformation can run on Replicate's infrastructure using Google's Nano Banana model.
+  11  * Once processing finishes, the transformed image returns to your device. The app optionally saves that result to your photo library with a KiwiCam watermark.
+
+  36  
+  37: * **Photos:** BCam keeps every photo on your device. When you request an AI transformation, the image exists on Replicate's systems only long enough to complete processing. For details, refer to Replicate's retention policy ([https://replicate.com/privacy](https://replicate.com/privacy)).
+  38  * **Local Data:** Preferences and usage counters persist on your device until you uninstall the app, reset settings, or clear them.
+  39: * We do not maintain BananaCam-operated servers that store personal data.
+  40  
+
+  44  
+  45: We use AIProxy/Replicate ([https://replicate.com](https://replicate.com/)) to run Google's Nano Banana model. They act as our processor for AI rendering and receive only the data needed to perform your requested transformation.
+  46  
+  47: ### 5.2 Google Nano Banana Model
+  48  
+
+  64  
+  65: BananaCam is not intended for children under 13, and we do not knowingly collect information from them.
+  66  
+
+  73  Email: [maxfroehlich@gmx.net](mailto:maxfroehlich@gmx.net)
+  74: Support: [https://kiwicam.site/support](https://bananacam.site/support)
+  75  
