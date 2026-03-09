@@ -40,7 +40,7 @@
       <div class="container">
         <article class="content-card">
           <h1>KiwiCam Privacy Policy</h1>
-          <p>Last updated: <span id="lastUpdated">November 15, 2025</span></p>
+          <p>Last updated: <span id="lastUpdated">March 9, 2026</span></p>
 
           <h2>1. Introduction</h2>
           <p>
@@ -77,13 +77,15 @@
           <h3>2.3 Purchases and Subscriptions</h3>
           <p>
             KiwiCam relies on RevenueCat to manage in-app purchases. StoreKit receipts and related subscription information
-            are handled directly by RevenueCat and Apple; KiwiCam does not receive your billing details.
+            are handled directly by RevenueCat and Apple; KiwiCam does not receive your full billing details.
           </p>
 
           <h3>2.4 What We Do NOT Collect</h3>
           <ul>
-            <li>We do not log device identifiers, operating system information, analytics, feature usage, or behavioral tracking data.</li>
-            <li>We do not collect location data.</li>
+            <li>We do not use your photo content for advertising profiling.</li>
+            <li>We may process limited attribution identifiers and app event metadata for ad measurement and subscription attribution.</li>
+            <li>We do not collect precise location.</li>
+            <li>We do not receive your full billing details from Apple.</li>
           </ul>
 
           <h2>3. How We Use Your Information</h2>
@@ -92,9 +94,31 @@
             <li>To deliver the transformed photo back to you and optionally save it to your library.</li>
             <li>To remember whether you approved cloud processing and to enforce transformation limits tied to your subscription tier.</li>
             <li>To facilitate purchase validation through RevenueCat.</li>
+            <li>To measure campaign effectiveness.</li>
+            <li>To understand which ads lead to app installs and subscriptions.</li>
+            <li>To improve marketing efficiency and audience targeting in a limited attribution context.</li>
           </ul>
 
-          <h2>4. Data Storage and Retention</h2>
+          <h2>4. Tracking &amp; Attribution (ATT)</h2>
+          <p>
+            On iOS, KiwiCam may request permission through Apple’s App Tracking Transparency (ATT) prompt.
+          </p>
+          <ul>
+            <li>
+              If you allow tracking, limited attribution and measurement data may be used to understand which campaigns
+              lead to app installs and subscriptions.
+            </li>
+            <li>
+              If you decline, KiwiCam will continue to work, but campaign attribution and measurement may be more
+              limited.
+            </li>
+            <li>
+              KiwiCam does not use photo content for advertising profiling, and we do not log purchases or revenue
+              client-side through the Meta SDK.
+            </li>
+          </ul>
+
+          <h2>5. Data Storage and Retention</h2>
           <ul>
             <li>
               <strong>Photos:</strong> KiwiCam keeps every photo on your device. When you request an AI transformation, the image
@@ -108,48 +132,64 @@
             <li>We do not maintain KiwiCam-operated servers that store personal data.</li>
           </ul>
 
-          <h2>5. Third-Party Services</h2>
+          <h2>6. Third-Party Services</h2>
 
-          <h3>5.1 AIProxy/Replicate</h3>
+          <h3>6.1 AIProxy/Replicate</h3>
           <p>
             We use AIProxy/Replicate (<a href="https://replicate.com/">https://replicate.com/</a>) to run Google’s Nano Banana model.
             They act as our processor for AI rendering and receive only the data needed to perform your requested transformation.
           </p>
 
-          <h3>5.2 Google Nano Banana Model</h3>
+          <h3>6.2 Google Nano Banana Model</h3>
           <p>
             The model is hosted in Google Cloud as part of the Replicate workflow. Google handles the compute infrastructure
             for the transformation; any temporary storage follows Google and Replicate policies.
           </p>
 
-          <h3>5.3 RevenueCat</h3>
+          <h3>6.3 RevenueCat</h3>
           <p>
             RevenueCat (<a href="https://www.revenuecat.com/privacy">https://www.revenuecat.com/privacy</a>) manages in-app purchases and
-            subscriptions. They process transactional data required by Apple’s App Store but do not share personal billing details with us.
+            subscriptions. They process transactional data required by Apple’s App Store, help validate subscription status,
+            and may forward subscription conversion events to Meta server-to-server for attribution measurement. They do not
+            share your full personal billing details with us.
           </p>
 
-          <h2>6. Data Security</h2>
+          <h3>6.4 Apple</h3>
+          <p>
+            Apple (<a href="https://www.apple.com/legal/privacy/">https://www.apple.com/legal/privacy/</a>) processes App Store
+            purchases, billing, and subscription management for KiwiCam.
+          </p>
+
+          <h3>6.5 Meta (Facebook)</h3>
+          <p>
+            Meta may receive limited attribution and app event measurement data through the Meta SDK and through
+            RevenueCat’s server-to-server integrations to help measure which campaigns lead to installs or subscriptions.
+            KiwiCam does not log purchases or revenue client-side through the Meta SDK. Meta privacy terms/policy:
+            <a href="https://www.facebook.com/privacy/policy/">https://www.facebook.com/privacy/policy/</a>
+          </p>
+
+          <h2>7. Data Security</h2>
           <p>
             We rely on HTTPS for all network communication and use Apple’s UserDefaults/Keychain to store local settings securely.
             Remember that no method of transmission or storage is completely secure.
           </p>
 
-          <h2>7. Your Rights</h2>
+          <h2>8. Your Rights</h2>
           <p>
             Depending on your location, you may have the right to request access to or deletion of data stored on your device,
             opt out of cloud processing by disabling the in-app toggle, or make other privacy inquiries. Contact us and we will help
             you exercise applicable rights.
           </p>
 
-          <h2>8. Children’s Privacy</h2>
+          <h2>9. Children’s Privacy</h2>
           <p>KiwiCam is not intended for children under 13, and we do not knowingly collect information from them.</p>
 
-          <h2>9. Changes to This Privacy Policy</h2>
+          <h2>10. Changes to This Privacy Policy</h2>
           <p>
             We may update this policy from time to time. We will post revisions in the app and update the “Last updated” date.
           </p>
 
-          <h2>10. Contact Us</h2>
+          <h2>11. Contact Us</h2>
           <p>Email: <a href="mailto:maxfroehlich@gmx.net">maxfroehlich@gmx.net</a></p>
           <p>Support: <a href="https://kiwicam.site/support">https://kiwicam.site/support</a></p>
         </article>

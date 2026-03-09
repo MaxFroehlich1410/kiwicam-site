@@ -17,14 +17,7 @@ KiwiCam offers optional auto-renewing subscriptions that unlock additional trans
 
 ### 3.1 Available Plans
 
-We currently offer six auto-renewable subscription options. Listed prices reflect the United States App Store in USD; Apple will display and charge the equivalent amount in your local currency, which may vary because of exchange rates, taxes, or regional pricing adjustments.
-
-* **KiwiCam Lite Monthly** – 1 month for $1.99 USD per month.
-* **KiwiCam Standard Monthly** – 1 month for $5.99 USD per month.
-* **KiwiCam Pro Monthly** – 1 month for $9.99 USD per month.
-* **KiwiCam Lite Annual** – 1 year for $19.99 USD per year.
-* **KiwiCam Standard Annual** – 1 year for $49.99 USD per year.
-* **KiwiCam Pro Annual** – 1 year for $99.99 USD per year.
+KiwiCam offers multiple auto-renewable subscription options. Current plans and prices are shown in-app and may vary by region, currency, taxes, and App Store pricing updates. Any plan names or examples shown in the app or on the website are for convenience and may change.
 
 ### 3.2 Auto-Renewal & Billing
 
@@ -44,7 +37,7 @@ Payment is charged to your Apple ID account at the time of purchase confirmation
 
 ### 3.6 Privacy
 
-Subscription management and transaction data are processed through Apple and our in-app purchase provider. Please review our [Privacy Policy](https://kiwicam.site/privacy-policy) to learn how we handle personal data in connection with your subscription.
+Subscription management and transaction data are processed through Apple and our in-app purchase provider. KiwiCam may also use attribution and measurement partners for campaign and subscription conversion measurement as described in the [Privacy Policy](https://kiwicam.site/privacy-policy). Please review our Privacy Policy to learn how we handle personal data in connection with your subscription.
 
 ## 4. User Content
 
@@ -54,9 +47,13 @@ When you upload photos to KiwiCam, you retain ownership of your original images.
 
 ### 4.2 Third-Party Processing
 
-You acknowledge and agree that your photos will be processed by third-party services (Replicate API and Google's Nano Banana Model) to provide the transformation functionality. By using KiwiCam, you consent to the transmission and processing of your images by these third-party services in accordance with their respective privacy policies and terms of service.
+You acknowledge and agree that KiwiCam relies on third-party services to operate. This includes Replicate API and Google's Nano Banana Model for AI photo transformations, Apple and RevenueCat for purchases and subscriptions, and advertising or attribution partners, including Meta, for campaign measurement. By using KiwiCam, you consent to the transmission and processing of relevant data by these third-party services in accordance with their respective privacy policies and terms of service.
 
-### 4.3 Prohibited Content
+### 4.3 Advertising Attribution & Measurement
+
+KiwiCam may use attribution technologies to measure campaign effectiveness and understand which campaigns lead to installs or subscription conversions. This does not change subscription billing, pricing, cancellation, refunds, or your other rights and obligations under Section 3.
+
+### 4.4 Prohibited Content
 
 You agree not to upload, post, or transmit any content that is illegal, harmful, threatening, abusive, harassing, defamatory, vulgar, obscene, or otherwise objectionable. We reserve the right to refuse service to anyone who violates these terms. You are responsible for ensuring you have the right to upload and transform any images you submit.
 
